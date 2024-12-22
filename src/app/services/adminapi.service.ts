@@ -11,7 +11,7 @@ export class AdminapiService {
 
   constructor(private http:HttpClient) { }
 
-  server_URL='http://employee.io/' 
+  server_URL='https://employee-sever-6c7b.onrender.com' 
   //Create an object for behaviour subject
   public shareData=new BehaviorSubject(false)
 
